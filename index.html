@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified JavaScript 
+		Bootstrap's JavaScript requires jQuery -->
+		<!-- <script 
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> -->
+
+		
+		<!-- 
+		Bootstrap CDN
+		The folks over at MaxCDN 
+		graciously provide CDN support for Bootstrap's CSS and JavaScript. 
+		Just use these Bootstrap CDN links. -->
+
+		<!-- Latest compiled and minified CSS -->
+		<!-- <link rel="stylesheet" 
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+		<link rel="stylesheet" 
+		href="css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<!-- <link rel="stylesheet" 
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"> -->
+		<link rel="stylesheet" 
+		href="css/bootstrap-theme.min.css">
+	</head>
+	
+	<body>
+	
+		<nav class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" 
+					class="navbar-toggle" 
+					data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+							<a class="dropdown-toggle" 
+							data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+							<a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li>
+							<a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>	
+
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+					</h4>
+				</div>
+				<div id="collapse1" class="panel-collapse collapse in">
+					<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+					</h4>
+				</div>
+				<div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+					</h4>
+				</div>
+				<div id="collapse3" class="panel-collapse collapse">
+					<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 
+		.container-fluid class for a full width container, 
+		spanning the entire width of the viewport -->
+		<div class="container-fluid">
+			<!-- 
+			Jumbotron
+			A Jumbotron indicates 
+			a big box for calling extra attention to some special content or information.
+
+			A Jumbotron is displayed as 
+			a grey box with rounded corners. 
+			It also enlarges the font sizes of the text inside it. -->
+			<div class="jumbotron">
+				<h1>Heading 1</h1>  
+				<a id="refSlideLeft"
+				href="#" class="btn btn-info btn-lg">
+					<span class="glyphicon glyphicon-circle-arrow-left"></span>
+					Search href btn
+					<span class="glyphicon glyphicon-search"></span>
+				</a>
+				<button id="navSlideRight" type="button" class="btn btn-default">
+					<span class="glyphicon glyphicon-arrow-right"></span>
+					Button btn
+					<span class="glyphicon glyphicon-circle-arrow-right"></span>
+				</button>
+			</div>	
+
+			<div class="container">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Menu 1</a></li>
+					<li><a href="#">Menu 2</a></li>
+					<li><a href="#">Menu 3</a></li>
+				</ul>
+			</div>
+
+			<div class="container">
+				<ul class="nav nav-pills">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Menu 1</a></li>
+					<li><a href="#">Menu 2</a></li>
+					<li><a href="#">Menu 3</a></li>
+				</ul>
+			</div>
+		
+      <p>Use the blockquote element to present content from another source:</p>
+      <blockquote>
+        <p>For 50 years, WWF has been protecting the future of nature. 
+				The world's leading conservation organization, 
+				WWF works in 100 countries and 
+				is supported by 1.2 million members in the United States and 
+				close to 5 million globally.</p>
+        <footer>From WWF's website</footer>
+      </blockquote> 
+
+      <p>A blockquote with right-aligned content:</p>
+      <blockquote class="blockquote-reverse">
+        <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+        <footer>From WWF's website</footer>
+      </blockquote>			
+    </div>
+		
+		<!-- 
+		.container class for a responsive fixed width container -->
+    <div class="container">
+      <p>Use the dl element to indicate a description list:</p>
+      <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+      </dl>     
+
+			<p>
+				Use the .dl-horizontal class 
+				line up the description list 
+				side-by-side when 
+				the browser window expands:</p>
+      <dl class="dl-horizontal">
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+      </dl>     
+      <p>
+				<strong>Tip:</strong> Try to 
+				resize the browser window to 
+				see the behaviour of the description list.</p> 			
+		</div>	
+
+		<div class="container">
+      <h2>Code</h2>    
+      
+      <p>For multiple lines of code, use the pre element:</p>
+      <pre>Text in a pre element
+      is displayed in a fixed-width
+      font, and it preserves
+      both      spaces and
+      line breaks.</pre>
+
+      <p>
+				If you add the .pre-scrollable class, 
+				the pre element gets 
+				a max-height of 350px and 
+				provides a y-axis scrollbar:</p>
+      <pre class="pre-scrollable">Text in a pre element
+      is displayed in a fixed-width
+      font, and it preserves
+      both      spaces and
+      line breaks.</pre>
+    </div>
+		
+    <div class="container">
+      <p>To indicate input that is typically entered via the keyboard, use the kbd element:</p>
+      <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+    </div>
+
+    <div class="container">
+      <h2>Typography</h2>
+      <p class="text-left">Left-aligned text.</p>
+      <p class="text-right">Right-aligned text.</p>      
+      <p class="text-center">Center-aligned text.</p>
+      <p class="text-justify">Justified text. Justified text.</p>      
+      <p class="text-nowrap">No wrap text. No wrap text.</p>
+      <p><strong>Tip:</strong> Try to resize the browser window to see the behaviour of justify and nowrap.</p>      
+    </div>
+
+    <div class="container">
+      <h2>Typography</h2>
+      <p>The class .list-inline places all list items on a single line:</p>
+      <ul class="list-inline">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+    </div>
+		
+		<!-- col-sm-2 + col-sm-10 = 12 -->
+		<form class="form-horizontal" role="form">
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="email">Email:</label>
+				<div class="col-sm-10">
+					<input type="email" class="form-control" id="email" placeholder="Enter email">
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="pwd">Password:</label>
+				<div class="col-sm-10"> 
+					<input type="password" class="form-control" id="pwd" placeholder="Enter password">
+				</div>
+			</div>
+			<div class="form-group"> 
+				<div class="col-sm-offset-2 col-sm-10">
+					<div class="checkbox">
+						<label><input type="checkbox"> Remember me</label>
+					</div>
+				</div>
+			</div>
+			<div class="form-group"> 
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-default">Submit</button>
+				</div>
+			</div>
+		</form>		
+	</body>
+
+	<script 
+	src="lib/jquery.min.js"></script>
+	<!-- Bootstrap's JavaScript requires jQuery -->
+	<script 
+	src="lib/bootstrap.min.js"></script>
+	
+	<script>
+		// 6 fields:
+		// Title, Body, Left & Right Header and Footers texts
+		//* {list: [{tit:'tit1',foot:'foot1'},{tit:'tit2',foot:'foot2'}]}
+		function navigateSlide(directon, elem) {		
+			var currentSlide = 0/*,
+					reverseOrder = []*/;
+			
+			if (elem) {
+			} else {
+				return ;
+			}
+			if (directon === undefined) {
+				directon = "forward";
+			}
+			//* $("p").hide();
+			//$("div").data("greeting", "Hello World");
+			//$(selector).data(name)
+			//* console.dir(this);//* button#navSlideRight.btn.btn-default
+			//alert($("#w3s").attr("href"));
+			//console.log('data: ' + $(this).data("slideNumb"));
+			//* undefined	Indicates that a variable has not been assigned a value
+			//* x === undefined
+			//console.log('data undefined? ' + $(this).data("slideNumb") === undefined);
+			//console.log('typeof data "undefined"? ' + typeof($(this).data("slideNumb")) === 'undefined');
+			//console.log('typeof data: ' + typeof($(this).data("slideNumb")));
+			//console.log('typeof data {undefined}? ' + typeof($(this).data("slideNumb")) === undefined);
+			//* console.log('attr ' + $(this).attr("data-slideNumb"));
+			//* $(this).data() : [Object]
+			//* typeof($(this).data("slideNumb"))==="undefined" : true
+			//* $(this).data("slideNumb")===undefined : true
+			if (
+				$(elem).data("slideNumb") !== undefined
+				//*$(this).data("slideNumb") !== undefined /*||
+				//*$(this).attr("data-slideNumb")*/
+			){
+				//* elem = (elem + 1) % someArray.length;
+				//*currentSlide = $(this).data("slideNumb");
+				currentSlide = $(elem).data("slideNumb");
+				
+				if (directon == "forward") {
+					//* forward 
+					/*
+					links from current to next element
+					0->1->2->3->0 == cycle
+					*/
+					currentSlide = (currentSlide + 1) % slides.slideList.length;
+				} else {
+					//* backward
+					/*
+					links from current to next element
+					0->3->2->1->0 == cycle
+					*/
+					
+					/*
+					basic case:
+					increment/induction step:
+					n - elem
+					from 0 to n-1								*/
+					
+					if (currentSlide == 0) {
+						currentSlide = slides.slideList.length - 1;
+					} else {
+						currentSlide -= 1;
+					}
+					/*currentSlide = slides.slideList.length - 1 - (currentSlide + 1);*/
+					/*for (var i = 0, j = slides.slideList.length - 1; j >= 0 ; i++, j--) {
+						reverseOrder[i] = j;
+					}*/
+					//* console.dir(reverseOrder);
+					//currentSlide = reverseOrder[currentSlide];
+					//currentSlide = slides.slideList.length - 1 - currentSlide;
+					
+					//* console.info('currentSlide: ' + currentSlide);
+				}
+			} else {
+				//* $(this).data("slideNumb", 0);
+			}	
+			$(elem).data("slideNumb", currentSlide);
+			//*$(this).data("slideNumb", currentSlide);
+			//* $(this).attr("data-slideNumb", currentSlide);
+			/*if (!this.data("slideNumb")) {//* undefined is not a function
+				this.data("slideNumb", 0);
+			}*/
+			return currentSlide;
+		}
+		
+		var slides = {slideList: []}/*,
+				slideList = []*/;
+						
+		/*slideContent = {
+			title: 'Title',
+			body: 'Body',
+			leftHeader: 'leftHeader',
+			rightHeader: 'rightHeader',
+			footer: 'Footer'
+		};*/
+		
+		//console.dir(slideContent);
+		for (var i = 1; i < 4; i++)	{
+		
+			//* sS += 1; <=> sS = sS + 1;
+			slides.slideList[i-1] = {
+				title: 'Title' + i,  
+				body: 'Body' + i,
+				leftHeader: 'leftHeader' + i,
+				rightHeader: 'rightHeader' + i,
+				footer: 'Footer' + i
+			}			
+			
+		}
+		//console.dir(slideList);
+		//console.dir(slideContent);
+		//* console.dir(slides.slideList);
+		
+		$(document).
+			ready(function(){
+				//* navSlideRight
+				$("button").
+					filter("#navSlideRight").
+					click(
+						//* nextSlide();//* parentheses ?	
+						function(){
+							//navigateSlide("forward", $(this));
+
+							//* $(selector).fadeOut(speed,easing,callback)
+							//* $(selector).fadeIn(speed,easing,callback)
+							//* $(selector).hide(speed,easing,callback)
+							//* $(selector).show(speed,easing,callback)
+							$("h1:first")
+								//.delay("slow")
+								.fadeOut(
+									"slow",
+									"linear",
+									function(){
+										$("h1:first")
+											//*.text(slides.slideList[currentSlide].title)
+											.text(slides.slideList[navigateSlide("forward", $(this))].title)
+											//.delay("slow")
+											.fadeIn(
+												"slow",
+												"linear"/*,
+												function(){
+													$("h1:first").
+														text(slides.slideList[currentSlide].title);
+												}*/	
+											);		
+									}	
+								)
+								//* .text(slides.slideList[currentSlide].title)
+								//.delay("slow")
+								//.fadeIn("slow","linear",$("h1:first").text(slides.slideList[currentSlide].title))
+								;
+								//*text($(this).data("slideNumb"));
+						}
+				);
+				/*$("h1:first").
+					text(slides.slideList[0].title);*/
+					
+				/*$("a")
+					.click(function(event){
+						event.preventDefault();
+					});	*/
+				$("a").
+					filter("#refSlideLeft").
+					click(
+						function(event){
+							event.preventDefault();
+							$("h1:first")
+								.fadeOut(
+									"slow",
+									"linear",
+									function(){
+										$("h1:first")
+											.text(
+												slides
+													.slideList[
+														navigateSlide(
+															"backward", 
+															$(this)
+														)
+													].title
+											)
+											.fadeIn(
+												"slow",
+												"linear"
+											);		
+									}	
+								);
+						}
+					);				
+		});
+	</script>
+	
+</html>
